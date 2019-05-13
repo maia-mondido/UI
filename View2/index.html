@@ -15,7 +15,7 @@
     <div>
         <!-- Header -->
         <nav class="navbar navbar-expand-lg mx-0">
-                <a class="navbar-brand" href="#">Nordea Connect</a>
+                <a class="navbar-brand ml-3" href="#">Nordea Connect</a>
               
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                   <div class="navbar-nav mr-auto">
@@ -125,7 +125,7 @@
             <!-- Main Dashboard -->
             <div class="main col-lg-9">
                 <nav aria-label="breadcrumb ">
-                    <span class="breadcrumb-item">Merchant name </span>
+                    <span class="breadcrumb-item ml-2">Merchant name </span>
                         <span class="container-left"><span class="triangle-left"></span></span>
                     <span class="breadcrumb-item">Dashboard</span>
                       
@@ -195,13 +195,13 @@
                                 <img src="imgs/success-fail.png" class="graph" alt="success-fail" />
                             </div>
                         </div> 
-                        <div class="card card-plan col-lg-4 my-2 ml-3" >
+                        <div class="card card-plan col-lg-4 my-1 ml-3" >
                             <div class="card-body row">
                                 <div class="col-lg-12 ">
                                     <h4 class="card-title">Recent payments</h4>
                                 </div>
                                 <div class=" col-lg-12 ">
-                                    <table class="table">
+                                    <!-- <table class="table">
                                         <tbody>
                                             
                                             <tr>
@@ -222,7 +222,14 @@
                                             
                                             </tr>
                                         </tbody>
-                                    </table>
+                                    </table> -->
+                                    <ul class="recent-payments-data">
+                                        <li><img src="" class="method-type-icon mr-2" alt="type"/><span>1.0 SEK</span> <span class="recent-payments-date">2019-04-17 10:17</span></li>
+                                        <li><img src="" class="method-type-icon mr-2" alt="type"/><span>1.0 SEK</span> <span class="recent-payments-date">2019-04-17 10:17</span></li>
+                                        <li><img src="" class="method-type-icon mr-2" alt="type"/><span>1.0 SEK</span> <span class="recent-payments-date">2019-04-17 10:17</span></li>
+                                        <li><img src="" class="method-type-icon mr-2" alt="type"/><span>1.0 SEK</span> <span class="recent-payments-date">2019-04-17 10:17</span></li>
+                                        <li><img src="" class="method-type-icon mr-2" alt="type"/><span>1.0 SEK</span> <span class="recent-payments-date">2019-04-17 10:17</span></li>
+                                    </ul>
                                     <div class="mx-5">
                                         <input type="submit" class="btn-view" value="View all" />   
                                     </div>
@@ -275,7 +282,7 @@
                                 <div class="col-lg-12 ">
                                     <h4 class="card-title">Top fail messages</h4>
                                 </div>
-                                <table class="table">
+                                <!-- <table class="table">
                                     <tbody>
                                         
                                         <tr>
@@ -296,7 +303,14 @@
                                         
                                         </tr>
                                     </tbody>
-                                </table>
+                                </table> -->
+                                <ul class="payments-error-data">
+                                    <li><img src="" class="method-type-icon" alt="type"/><span class="error-msg ml-2 mr-5">Payment declined</span> <span class="times">1</span></li>
+                                    <li><img src="" class="method-type-icon" alt="type"/><span class="error-msg ml-2 mr-5">Payment declined Transaction not permitted to cardholder</span> <span class="times">1</span></li>
+                                    <li><img src="" class="method-type-icon" alt="type"/><span class="error-msg ml-2 mr-5">Transaction missing</span> <span class="times">1</span></li>
+                                    <li><img src="" class="method-type-icon" alt="type"/><span class="error-msg ml-2 mr-5">Transaction missing</span> <span class="times">1</span></li>
+                                    <li><img src="" class="method-type-icon" alt="type"/><span class="error-msg ml-2 mr-5">Transaction missing</span> <span class="times">1</span></li>
+                                </ul>
                             </div> 
                         </div>    
                 </div>         

@@ -60,6 +60,18 @@
   font-weight: 400;
 }
 
+.recent-payments-data li, .payments-error-data li {
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+  width: 100%;
+}
+
+
+
+.recent-payments-date, .times {
+  float: right;
+}
+
 input[type="date"] {
   border-radius: 1px;
 }
