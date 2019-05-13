@@ -1,0 +1,41 @@
+
+
+  .dropdown {
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    width: 100%;
+  }
+
+  .disabled {
+    color:#8B8A8D;
+  }
+
+  .btn {
+    width: 100%;
+    margin: 0;
+    padding: 7px 0.5px 7px 7px;
+
+  }
+
+  .btn-disabled {
+    background: #F4F2F1;
+  }
+
+  /* .dropdown-toggle {
+    margin-left: calc(100% - 96px);
+    background-color: rgba(230,228,227,0.5);;
+    color:#8B8A8D;
+    padding: 8px 10px;
+  }
+
+
+  .dropdown-toggle-nr {
+    margin-left: calc(100% - 48px);
+  } */
+
+ 
+
+
+
+
+  
